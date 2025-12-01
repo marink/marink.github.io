@@ -12,6 +12,7 @@ export default function Home() {
         <ul>
         <li><a href="machinelearning/">Machine Learning</a></li>
         <li><a href="how-the-body-works/">How the Human Body Works</a></li>
+        <li><a href="math/">Math Page</a></li>
         </ul>
       </main>
       <footer className={styles.footer}>
