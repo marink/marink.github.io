@@ -1,13 +1,6 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #070d1a;
+  --foreground: #e2e8f0;
 }
 
 html,
@@ -33,6 +26,16 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+/* KaTeX dark-mode override */
+.katex, .katex-display {
+  color: inherit;
+}
+.katex-display {
+  margin: 1.2em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 @media (prefers-color-scheme: dark) {
