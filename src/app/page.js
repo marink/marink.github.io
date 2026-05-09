@@ -309,6 +309,7 @@ function ProjectCard({ title, url, tags, desc, internal, isActive = false }) {
       borderRadius: '7px', p: 2.5,
       display: 'flex', flexDirection: 'column', gap: 1.5,
       backdropFilter: 'blur(4px)',
+      height: '100%',
     }}>
       <Typography fontWeight={700} sx={{ color: TEXT, fontSize: '0.95rem' }}>
         {title}
