@@ -7,11 +7,12 @@ const DIM   = '#94a3b8';
 const ACCENT = '#60a5fa';
 
 const TOPICS = [
-  { label: 'Set Theory', href: '/math/set-theory', desc: 'Collections, operations, cardinality — the language all of mathematics is written in.' },
-  { label: 'Logic',          soon: true, desc: 'Propositional and predicate logic, proofs, and formal reasoning.' },
-  { label: 'Number Theory',  soon: true, desc: 'Primes, divisibility, modular arithmetic, and Diophantine equations.' },
-  { label: 'Calculus',       soon: true, desc: 'Limits, derivatives, integrals, and the fundamental theorem.' },
-  { label: 'Linear Algebra', soon: true, desc: 'Vectors, matrices, transformations, and eigenvalues.' },
+  { label: 'Set Theory',    href: '/math/set-theory',    desc: 'Collections, operations, cardinality — the language all of mathematics is written in.' },
+  { label: 'Logic',         href: '/math/logic',         desc: 'Propositional and predicate logic, truth tables, and rules of inference.' },
+  { label: 'Number Theory', href: '/math/number-theory', desc: 'Primes, divisibility, modular arithmetic, and Fermat\'s little theorem.' },
+  { label: 'Calculus',      href: '/math/calculus',      desc: 'Limits, derivatives, integrals, and the fundamental theorem.' },
+  { label: 'Linear Algebra',href: '/math/linear-algebra',desc: 'Vectors, matrices, determinants, and eigenvalues.' },
+  { label: 'Probability',   href: '/math/probability',   desc: 'Sample spaces, Bayes\' theorem, random variables, and common distributions.' },
 ];
 
 export default function MathIndex() {

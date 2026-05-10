@@ -11,10 +11,11 @@ const ACCENT = '#60a5fa';
 
 const TOPICS = [
   { label: 'Set Theory',     href: '/math/set-theory' },
-  { label: 'Logic',          href: '/math/logic',          soon: true },
-  { label: 'Number Theory',  href: '/math/number-theory',  soon: true },
-  { label: 'Calculus',       href: '/math/calculus',       soon: true },
-  { label: 'Linear Algebra', href: '/math/linear-algebra', soon: true },
+  { label: 'Logic',          href: '/math/logic' },
+  { label: 'Number Theory',  href: '/math/number-theory' },
+  { label: 'Calculus',       href: '/math/calculus' },
+  { label: 'Linear Algebra', href: '/math/linear-algebra' },
+  { label: 'Probability',    href: '/math/probability' },
 ];
 
 export default function MathShell({ children }) {

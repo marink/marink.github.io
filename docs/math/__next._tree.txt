@@ -1,4 +1,4 @@
 :HL["/_next/static/chunks/a06efaa4da229267.css","style"]
 :HL["/_next/static/chunks/6f04dbb31b3b2afc.css","style"]
 :HC["/",""]
-0:{"buildId":"gis5GcDz1EDSIYd3B3WsH","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"math","paramType":null,"paramKey":"math","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"yRzriWbFNSg40NMVUS30D","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"math","paramType":null,"paramKey":"math","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

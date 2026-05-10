@@ -276,7 +276,7 @@ const PROJECTS = [
   },
   {
     title: 'Federal Income Tax',
-    url: 'https://marink.github.io/federal-income-tax',
+    url: 'https://federal-income-tax.marinkokona.com',
     tags: ['Finance', 'JavaScript'],
     desc: 'Interactive U.S. federal income tax calculator. Computes marginal and effective rates across brackets, visualizes liability across filing statuses.',
   },
