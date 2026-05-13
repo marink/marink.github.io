@@ -202,12 +202,13 @@ function SqueezeVis() {
 // ── Page ───────────────────────────────────────────────────────────────────
 
 const TOC = [
-  { id: 'puzzle',   label: 'The Puzzle' },
-  { id: 'why-hard', label: 'Why It\'s Hard' },
-  { id: 'geometry', label: 'Geometric Setup' },
-  { id: 'squeeze',  label: 'The Squeeze' },
-  { id: 'proof',    label: 'Formal Proof' },
-  { id: 'payoff',   label: 'The Payoff' },
+  { id: 'puzzle',     label: 'The Puzzle' },
+  { id: 'why-hard',   label: 'Why It\'s Hard' },
+  { id: 'geometry',   label: 'Geometric Setup' },
+  { id: 'squeeze',    label: 'The Squeeze' },
+  { id: 'proof',      label: 'Formal Proof' },
+  { id: 'payoff',     label: 'The Payoff' },
+  { id: 'references', label: 'References' },
 ];
 
 export default function SinxOverxPage() {
@@ -407,6 +408,56 @@ export default function SinxOverxPage() {
           defined as a limit, and how to evaluate limits that resist direct substitution, is the
           bedrock on which all of that machinery rests.
         </Def>
+
+        {/* ── References ── */}
+        <H2 id="references">References</H2>
+        <P>
+          The geometric squeeze argument is old. Euler used area inequalities on the unit circle
+          in <em>Introductio in Analysin Infinitorum</em> (1748) to establish trigonometric
+          properties. The squeeze theorem in its modern form — with an explicit statement and
+          proof — was formalized by <strong style={{ color: TEXT }}>Augustin-Louis Cauchy</strong> in
+          his landmark <em>Cours d'Analyse</em> (1821), the same work that gave us the
+          ε-δ definition of a limit.
+        </P>
+        <P>
+          The proof in exactly the form presented here — three nested regions on a unit circle,
+          area inequalities, squeeze to the limit — appears in these standard references:
+        </P>
+
+        {[
+          {
+            authors: 'Michael Spivak',
+            title: 'Calculus',
+            detail: '4th ed., Chapter 15 — Spivak explicitly names the L\'Hôpital circularity trap, which most textbooks silently commit. The most rigorous undergraduate treatment.',
+            year: '1967',
+          },
+          {
+            authors: 'Tom M. Apostol',
+            title: 'Calculus, Vol. 1',
+            detail: '2nd ed., §2.3 — Apostol\'s treatment is careful and terse. The geometric argument is presented with full rigor and the squeeze theorem is proved before it is used.',
+            year: '1967',
+          },
+          {
+            authors: 'James Stewart',
+            title: 'Calculus: Early Transcendentals',
+            detail: '8th ed., §3.3 — The most widely used calculus textbook in the world. The proof here is essentially Stewart\'s, made more explicit about the circularity.',
+            year: '2015',
+          },
+          {
+            authors: 'Leonhard Euler',
+            title: 'Introductio in Analysin Infinitorum',
+            detail: 'Vol. 1 (1748) — The original source of the unit-circle area approach to trigonometric limits. Euler did not yet have the squeeze theorem by name, but the geometric intuition is all here.',
+            year: '1748',
+          },
+        ].map(({ authors, title, detail, year }) => (
+          <Box key={title} sx={{ mb: 2.5, pl: 3, borderLeft: '2px solid rgba(255,255,255,0.07)' }}>
+            <Typography sx={{ fontSize: 14, color: TEXT, fontWeight: 600 }}>
+              {authors} <Box component="span" sx={{ color: 'rgba(255,255,255,0.3)', fontWeight: 400 }}>({year})</Box>
+            </Typography>
+            <Typography sx={{ fontSize: 14, color: DIM, fontStyle: 'italic', mb: 0.5 }}>{title}</Typography>
+            <Typography sx={{ fontSize: 13, color: 'rgba(255,255,255,0.35)', lineHeight: 1.75 }}>{detail}</Typography>
+          </Box>
+        ))}
 
         <Divider sx={{ borderColor: MUTED, mt: 8, mb: 4 }} />
         <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
