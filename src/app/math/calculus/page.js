@@ -64,6 +64,17 @@ export default function CalculusPage() {
           We write <M m="\lim_{x \to a} f(x) = L" /> if <M m="f(x)" /> can be made arbitrarily close to <M m="L" /> by taking <M m="x" /> sufficiently close to <M m="a" /> (but not equal to <M m="a" />).
         </Def>
         <MB m="\lim_{x \to 2}(3x + 1) = 7 \qquad \lim_{x \to 0}\frac{\sin x}{x} = 1 \qquad \lim_{x \to \infty}\frac{1}{x} = 0" />
+        <Box sx={{ mb: 2 }}>
+          <Typography sx={{ fontSize: 13.5, color: DIM, lineHeight: 1.8 }}>
+            The first and third limits follow by direct substitution. The middle one —{' '}
+            <M m="\sin(x)/x" /> as <M m="x \to 0" /> — is a different story entirely.
+            Direct substitution gives <M m="0/0" />, L'Hôpital's rule is circular here,
+            and the proof requires a geometric argument about areas on a unit circle.{' '}
+            <a href="/math/calculus/sinx-over-x" style={{ color: ACCENT, textDecoration: 'none', fontWeight: 500 }}>
+              See the full proof →
+            </a>
+          </Typography>
+        </Box>
         <H3>Limit laws</H3>
         <P>If <M m="\lim_{x\to a} f(x) = L" /> and <M m="\lim_{x\to a} g(x) = M" />, then:</P>
         <MB m="\lim_{x\to a}[f(x) + g(x)] = L + M \qquad \lim_{x\to a}[f(x)\cdot g(x)] = LM \qquad \lim_{x\to a}\frac{f(x)}{g(x)} = \frac{L}{M}\;(M\neq 0)" />
