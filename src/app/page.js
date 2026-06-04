@@ -287,6 +287,13 @@ const PROJECTS = [
     desc: 'Mathematical concepts from first principles — set theory, logic, and the foundations underpinning computer science and probability.',
     internal: true,
   },
+  {
+    title: 'Philosophy',
+    url: '/philosophy',
+    tags: ['Philosophy', 'Nature'],
+    desc: 'Nature, process, and the intelligence encoded in physical law — from Heraclitus to Bayesian inference.',
+    internal: true,
+  },
 ];
 
 const TAG_COLORS = {
@@ -299,6 +306,8 @@ const TAG_COLORS = {
   'Finance':         '#fb923c',
   'Math':            '#60a5fa',
   'Sets':            '#38bdf8',
+  'Philosophy':      '#a78bfa',
+  'Nature':          '#818cf8',
 };
 
 function ProjectCard({ title, url, tags, desc, internal, isActive = false }) {
