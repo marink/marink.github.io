@@ -1,4 +1,4 @@
-import { H2, H3, P, Em, Pullout, Note, Claim, Table } from '../../paper';
+import { H2, H3, P, Em, A, Pullout, Note, Claim } from '../../paper';
 import { Cite } from '../references';
 
 export default function Homeostasis() {
@@ -55,18 +55,11 @@ export default function Homeostasis() {
         availability, which partly recovers with abstinence<Cite k="volkow" />.
       </P>
       <P>
-        <Em>Food.</Em> Insulin sensitivity behaves the same way. Chronically high insulin blunts the
-        response to it, so normal food begins to register as not enough<Cite k="fung" />. Here too the
-        craving is homeostasis faithfully defending a corrupted setpoint.
+        <Em>Metabolism.</Em> The pancreas from Section 2.1 shows the same drift. Chronically high
+        insulin blunts the cells' response to it, and the body answers by secreting still more: insulin
+        resistance<Cite k="insulin-resistance" />. The system is still balancing faithfully, only now
+        toward a reference that has moved.
       </P>
-      <Table
-        head={['', 'Slow reset', 'Accelerator']}
-        rows={[
-          ['Diet', 'Reducing refined carbohydrate', 'Fasting'],
-          ['Reward', 'Gradual reduction', 'Clean, total abstention from the cue'],
-        ]}
-        caption="Table 1. Two ways to move a setpoint back. In both registers the accelerator works by removing the flood entirely, so sensitivity can recover."
-      />
       <Note label="On the evidence">
         Receptor down-regulation is well established for drugs of abuse<Cite k="volkow" />. How far
         behavioural rewards such as games produce the same change is still debated. The argument here
@@ -74,6 +67,12 @@ export default function Homeostasis() {
         cases are equal in magnitude. The popular "dopamine fast" is best read the same way: it removes
         the cue, not dopamine itself.
       </Note>
+      <P>
+        The practical side of both setpoints, how insulin and reward sensitivity are actually restored, is
+        covered on my health site: <A href="https://health.marinkokona.com/health">Health</A> for
+        metabolism, and <A href="https://health.marinkokona.com/health/dopamine">Dopamine and Gaming</A> for
+        reward.
+      </P>
 
       <H3 n="2.3">What actually moves a setpoint: articulation</H3>
       <P>
@@ -88,7 +87,7 @@ export default function Homeostasis() {
         Section 9, a small instance of the paper's main idea, because a clear model is a good fold.
       </P>
       <Pullout>
-        Diet and habit therefore reveal a law about defended reference points. The rest of this paper
+        Metabolism and reward therefore reveal a law about defended reference points. The rest of this paper
         asks how far that law can be followed.
       </Pullout>
     </>

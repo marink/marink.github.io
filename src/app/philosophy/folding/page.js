@@ -50,7 +50,7 @@ export default function FoldingPage() {
     <Paper
       crumb="Philosophy → Folding"
       title="Folding: Reality as a Self-Referential Address"
-      subtitle="From homeostasis in diet and reward to the fold, the address, and the up-spiral."
+      subtitle="From homeostasis in metabolism and reward to the fold, the address, and the up-spiral."
       byline="Marin Kokona · Working paper · September 2026 · Nothing here is claimed as proved"
       abstract={ABSTRACT}
       keywords={['homeostasis', 'setpoint', 'folding', 'self-reference', 'interface theory', 'hard problem']}

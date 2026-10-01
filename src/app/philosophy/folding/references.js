@@ -6,6 +6,7 @@ export const REFS = [
   { key: 'natural-process', text: 'M. Kokona. "Natural Process." Philosophy, this site, 2026.', url: '/philosophy/natural-process' },
   { key: 'cannon',     text: 'W. B. Cannon. The Wisdom of the Body. W. W. Norton, 1932.' },
   { key: 'fung',       text: 'J. Fung. The Obesity Code: Unlocking the Secrets of Weight Loss. Greystone Books, 2016.' },
+  { key: 'insulin-resistance', text: 'A. M. Freeman, L. A. Acevedo and N. Pennings. "Insulin Resistance." StatPearls, NCBI Bookshelf, 2023.', url: 'https://www.ncbi.nlm.nih.gov/books/NBK507839/' },
   { key: 'prigogine',  text: 'I. Prigogine and I. Stengers. Order Out of Chaos: Man’s New Dialogue with Nature. Bantam, 1984.' },
   { key: 'schultz',    text: 'W. Schultz, P. Dayan and P. R. Montague. "A neural substrate of prediction and reward." Science 275 (5306): 1593–1599, 1997.' },
   { key: 'koob',       text: 'G. F. Koob and M. Le Moal. "Drug addiction, dysregulation of reward, and allostasis." Neuropsychopharmacology 24 (2): 97–129, 2001.' },

@@ -28,7 +28,7 @@ export default function Introduction() {
       </List>
       <P>
         This paper answers the first two with one word, <Em>homeostasis</Em>, and then follows that word
-        much further than I expected it to go. It turns out to run through diet, through habit, and
+        much further than I expected it to go. It turns out to run through metabolism, through habit, and
         finally through a picture of reality itself as a folded, self-reading structure. The third
         question is not answered. Section 8 marks exactly where the argument stops.
       </P>

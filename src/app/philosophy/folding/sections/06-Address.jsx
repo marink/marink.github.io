@@ -76,7 +76,7 @@ export default function Address() {
         correction. So I hold it as a strong analogy, not as an identity.
       </P>
       <Pullout>
-        Homeostasis runs through diet and reward as a mechanism, and through reality itself as an analogy
+        Homeostasis runs through metabolism and reward as a mechanism, and through reality itself as an analogy
         I find hard to resist. It is also what <A href="/philosophy/natural-process">Natural Process</A> was
         reaching for when it named self-reference as the hidden variable.
       </Pullout>
