@@ -222,6 +222,11 @@ export default function NaturalProcessPage() {
           Simple balancing has no self-model. Complex balancing — the kind that looks like
           intelligence — does.
         </Note>
+        <P>
+          What exactly the system compares itself against — and what happens when that reference
+          drifts — is taken up in{' '}
+          <a href="/philosophy/folding#homeostasis" style={{ color: ACCENT, textDecoration: 'none', fontWeight: 500 }}>Folding, §2: Homeostasis</a>.
+        </P>
 
         <H2 id="lineage">Philosophical Lineage</H2>
         <P>
@@ -298,7 +303,7 @@ export default function NaturalProcessPage() {
 
         <Divider sx={{ borderColor: MUTED, mt: 8, mb: 4 }} />
         <Typography sx={{ fontSize: 13, color: 'rgba(255,255,255,0.18)' }}>
-          Next: <a href="/philosophy" style={{ color: 'rgba(255,255,255,0.25)', textDecoration: 'none' }}>Philosophy index →</a>
+          Next: <a href="/philosophy/folding" style={{ color: 'rgba(255,255,255,0.25)', textDecoration: 'none' }}>Folding: Reality as a Self-Referential Address →</a>
         </Typography>
 
       </Box>

@@ -11,6 +11,7 @@ const ACCENT = '#60a5fa';
 
 const TOPICS = [
   { label: 'Natural Process', href: '/philosophy/natural-process' },
+  { label: 'Folding',         href: '/philosophy/folding' },
 ];
 
 const SOON = [
