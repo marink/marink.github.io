@@ -26,27 +26,22 @@ export default function Limits() {
         information a region can hold in proportion to its size and energy, set real floors.
       </Claim>
 
-      <H3 n="4.1">Where the floors live</H3>
+      <H3 n="4.1">Why the floors matter</H3>
       <P>
-        Both floors are stated in terms of space, time and energy. They are limits <em>within</em>
-        spacetime. Whether they are limits of reality depends on whether spacetime is fundamental, and
-        that is no longer a settled assumption.
+        These floors are real, and they are not a flaw in the idea of folding. They are the reason for it. The
+        information a region can hold is finite, and the holographic bound says it scales with the area of the
+        region's boundary, not its volume. If memory were infinite, nothing would need folding.
       </P>
-      <P>
-        Donald Hoffman's interface theory of perception argues that evolution tuned our senses to fitness
-        payoffs rather than to the structure of the world. On this view, spacetime is a species-specific
-        interface, a desktop, and physical objects are icons on it<Cite k={['hoffman2015', 'hoffman2019']} />.
-        The view is contested, but it is a serious argument, and from the other direction a growing line of
-        work in physics treats spacetime as emergent rather than fundamental.
-      </P>
-      <Claim label="Claim 2: the floors belong to the projection">
-        If spacetime is an interface, then the Planck length and the Bekenstein bound are real limits of
-        the <Em>rendering</Em>, the three-dimensional projection we live in, and not of the structure being
-        rendered. Nothing can be folded below them <em>inside the interface</em>. That says nothing about
-        the structure itself.
+      <Claim label="Claim 2: the limit is why folding is needed">
+        Folding is folding with structure preserved, <Em>inside whatever limits exist</Em>. The limits do not argue
+        against folding. They are what make it necessary.
       </Claim>
       <P>
-        So the frontier, as far as we can act on it, is folding with <Em>retrievable structure
+        My thinking about reality beneath its appearance owes something to Donald Hoffman's interface theory of
+        perception<Cite k={['hoffman2015', 'hoffman2019']} />. I credit it for that; no argument here rests on it.
+      </P>
+      <P>
+        So the frontier is folding with <Em>retrievable structure
         preserved</Em>. The seed and the path-compressed tree do this. The black hole does not. The next
         section asks what the thing being folded is, if it is not physical.
       </P>

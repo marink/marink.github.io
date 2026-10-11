@@ -6,7 +6,7 @@ export default function Stance() {
       <H2 id="stance" n="9">Conclusion: a modelling stance</H2>
       <P>
         Put simply, the master move is to ask why we are looking at it as a two-dimensional circle.
-        Every paradox met along the way (the reset, the fork, the zero, the floors) was an artefact of viewing a
+        Every paradox met along the way (the reset, the fork, the zero) was an artefact of viewing a
         higher-dimensional thing in too few dimensions. <Em>Folding is the movement between dimensional
         views.</Em>
       </P>

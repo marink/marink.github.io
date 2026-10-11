@@ -29,8 +29,8 @@ export default function RelatedWork() {
       <P>
         <Em>Spacetime as interface.</Em> Hoffman's interface theory of perception holds that spacetime and
         physical objects are a species-specific user interface rather than the structure of
-        reality<Cite k={['hoffman2015', 'hoffman2019']} />. Section 4.1 uses this to place the physical
-        limits on folding in the projection rather than in the structure.
+        reality<Cite k={['hoffman2015', 'hoffman2019']} />. I credit it for shaping how I think about reality
+        beneath its appearance; no argument in this paper rests on it.
       </P>
       <P>
         <Em>The undefinable.</Em> Cantor's diagonal argument<Cite k="cantor" /> and Gödel's incompleteness

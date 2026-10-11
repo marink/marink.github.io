@@ -21,8 +21,7 @@ export default function Spiral() {
         </li>
         <li>
           <Em>The reset is a projection artefact.</Em> It is what a higher-dimensional spiral looks like
-          when it is viewed along its axis (Figure 1). This is the same move as Section 4.1: a limit that
-          belongs to the view is mistaken for a limit of the thing.
+          when it is viewed along its axis (Figure 1).
         </li>
         <li>
           <Em>No privileged zero.</Em> To see only zero and infinity is to look at half the spectrum. The

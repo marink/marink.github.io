@@ -34,8 +34,8 @@ const ABSTRACT = (
     <em> toward</em>. I answer with <Em>homeostasis</Em>: balancing against a stored setpoint. Through
     reward and insulin I show that the setpoint is physical, and that it can drift. I then follow
     the same form upward. Folding, the compression of structure into a recoverable seed, appears in
-    fiction, algorithms and biology. I argue that physical limits on folding belong to our spacetime
-    projection rather than to structure itself, that every definition (the number e is the example) is
+    fiction, algorithms and biology. I argue that physical limits on folding are not a flaw in the idea
+    but the reason it is needed, that every definition (the number e is the example) is
     a fold of an unfinished, self-generating structure, and that what any definition leaves out is more
     than what it holds. A fold is then best understood as an <Em>address</Em> into a full space of
     possibilities, read by nothing but itself, which is homeostasis at the level of reality by analogy
@@ -53,7 +53,7 @@ export default function FoldingPage() {
       subtitle="From homeostasis in metabolism and reward to the fold, the address, and the up-spiral."
       byline="Marin Kokona · Working paper · September 2026 · Nothing here is claimed as proved"
       abstract={ABSTRACT}
-      keywords={['homeostasis', 'setpoint', 'folding', 'self-reference', 'interface theory', 'hard problem']}
+      keywords={['homeostasis', 'setpoint', 'folding', 'self-reference', 'holographic bound', 'hard problem']}
       toc={TOC}
     >
       <Introduction />

@@ -15,9 +15,8 @@ export default function Address() {
         expansion that never ends.
       </Claim>
       <P>
-        "Infinitely small" does not collide with the floors of Section 4. Those floors belong to the
-        projection, and the address is not in the projection. It is what the projection is a rendering
-        of.
+        "Infinitely small" does not collide with the floors of Section 4. Those floors limit what physical
+        matter can hold, and the address is not physical.
       </P>
       <P>
         A life, everything that is experienced, is that address <Em>unravelling</Em>. Living is the fold
