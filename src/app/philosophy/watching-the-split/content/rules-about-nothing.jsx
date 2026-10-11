@@ -8,7 +8,7 @@ export default function RulesAboutNothing() {
         I watched an infinite-zoom video with my daughter (<a href="https://www.youtube.com/watch?v=8Are9dDbW24"
         target="_blank" rel="noreferrer" style={{ color: '#60a5fa', textDecoration: 'none' }}><em>Cosmic Eye</em></a>,
         three minutes): zoom in far enough and you find almost nothing at all.
-        The atom is almost entirely empty. What holds a solid hand together is not stuff but <em>rules</em>
+        The atom is almost entirely empty. What holds a solid hand together is not stuff but <em>rules</em>{' '}
         (distances, ratios, patterns) that do not change with scale. The world is not made of things; it is made
         of rules about almost-nothing, and those rules are mathematics. The eye hits nothing; only the mind
         reaches the pattern.

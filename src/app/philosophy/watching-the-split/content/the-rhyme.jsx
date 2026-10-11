@@ -8,21 +8,16 @@ export default function TheRhyme() {
       <P>
         Several of the most famous hard problems rhyme. Each is self-reference meeting a limit.
       </P>
-            <Table
+      <Table
         head={['', 'Self-reference', 'The limit']}
         rows={[
-          ['Halting (Turing)', 'A program asked about programs', 'No finite procedure decides every case'],
-          ['Gödel', 'A system describing itself', 'True sentences it cannot prove, including its own consistency'],
-          ['P versus NP', 'Checking against constructing', 'Verifying an answer versus building one'],
-          ['The hard problem', 'Structure read from within', 'Why the reading is felt at all'],
+          [<Pop id="halting">Halting (Turing)</Pop>, 'A program asked about programs', 'No finite procedure decides every case'],
+          [<Pop id="godel">Gödel</Pop>, 'A system describing itself', 'True sentences it cannot prove, including its own consistency'],
+          [<Pop id="pvsnp">P versus NP</Pop>, 'Checking against constructing', 'Verifying an answer versus building one'],
+          [<Pop id="hard-problem">The hard problem</Pop>, 'Structure read from within', 'Why the reading is felt at all'],
         ]}
         caption="Four limits that rhyme. P versus NP is used as a data point and a metaphor only."
       />
-      
-      <P>
-        See <Pop id="halting">halting</Pop>, <Pop id="godel">Gödel</Pop> and <Pop id="pvsnp">P versus NP, and
-        42</Pop>.
-      </P>
 
       <H3>Four is not infinity</H3>
       <Claim label="What is not claimed" color="#fbbf24">
@@ -31,8 +26,7 @@ export default function TheRhyme() {
       </Claim>
       <P>
         My stance is to live it: to knock them down as I go, and to treat "infinite" as a bet tested by never
-        running out, not as a proven claim. It is listed with the <A href={`${href('creeds')}#infinite-bet`}>creeds</A>{' '}
-        for that reason.
+        running out, not as a proven claim. It sits on the <A href={`${href('creeds')}#infinite-bet`}>creeds page</A> as a bet, not a creed.
       </P>
 
       <H3>Minds and machines</H3>

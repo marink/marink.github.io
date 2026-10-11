@@ -65,7 +65,7 @@ export default function Invitation() {
       <P>
         It is taken apart in four stages, each opened by a line of a refrain: <em>light</em> (the first split
         and the two inversions), <em>questions</em> (your doubt, the <Pop id="excess-potential">excess
-        potential</Pop> we pour into a split, the choice of verb, the ups and downs), <em>biology and science</em>
+        potential</Pop> we pour into a split, the choice of verb, the ups and downs), <em>biology and science</em>{' '}
         (folding as the union of extremes, and the honest limit), and <em>AI</em> (the rung this is written from,
         the spiral, eternal life, and the handoff).
       </P>

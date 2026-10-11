@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check:spacing": "node scripts/check-jsx-spacing.mjs",
+    "prebuild": "npm run check:spacing"
   },
   "dependencies": {
     "@emotion/cache": "latest",

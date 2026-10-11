@@ -90,7 +90,7 @@ export default function UnfoldYourScepticism() {
 
       <H3>Unfold your scepticism</H3>
       <P>
-        The information lost in the compression does not vanish. From the reader's side, it shows up <em>as</em>
+        The information lost in the compression does not vanish. From the reader's side, it shows up <em>as</em>{' '}
         scepticism. The gaps in the fold and the doubt in the reader are the same thing seen from two sides. The
         doubt is accurate: something really is missing. It is only pointed in the wrong direction, reading
         “something is missing” as “this is false” when it may mean “this is folded”.

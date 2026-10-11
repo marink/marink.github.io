@@ -163,7 +163,7 @@ export function WikiFrame({ slug, children }) {
         </Box>
       ) : (
         <Box sx={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 2, fontSize: 13.5 }}>
-          <a href={href('')} style={link}
+          <a href={href(meta.home ?? '')} style={link}
              onClick={e => { if (typeof window !== 'undefined' && document.referrer.includes(SECTION.base)) { e.preventDefault(); window.history.back(); } }}>
             ← Back to where you were
           </a>
