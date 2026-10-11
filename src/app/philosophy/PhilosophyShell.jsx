@@ -3,6 +3,7 @@
 import { usePathname } from 'next/navigation';
 import { Box, Typography } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { SECTION, MAIN, ASIDES, STAGES, href as wikiHref } from './watching-the-split/pages';
 
 const BG     = '#070d1a';
 const TEXT   = '#e2e8f0';
@@ -12,6 +13,7 @@ const ACCENT = '#60a5fa';
 const TOPICS = [
   { label: 'Natural Process', href: '/philosophy/natural-process' },
   { label: 'Folding',         href: '/philosophy/folding' },
+  { label: SECTION.title,     href: SECTION.base },
 ];
 
 const SOON = [
@@ -84,6 +86,31 @@ export default function PhilosophyShell({ children }) {
               </Box>
             );
           })}
+
+          {path?.startsWith(SECTION.base) && (
+            <Box sx={{ ml: 1.5, pl: 1.5, mb: 1, borderLeft: '1px solid rgba(255,255,255,0.06)' }}>
+              {[...MAIN.flatMap((p, j) => (j === 0 || MAIN[j - 1].stage !== p.stage)
+                  ? [{ refrain: STAGES.find(st => st.n === p.stage).refrain }, p] : [p]),
+                null, ...ASIDES, null, { slug: 'concepts', title: 'Concepts' }].map((p, i) => p === null ? (
+                <Box key={`gap-${i}`} sx={{ height: 10 }} />
+              ) : p.refrain ? (
+                <Box key={`st-${i}`} sx={{ fontSize: 10.5, fontStyle: 'italic', color: 'rgba(167,139,250,0.7)', mt: i ? 1.25 : 0, mb: 0.25 }}>
+                  {p.refrain}
+                </Box>
+              ) : (
+                <a key={p.slug || 'start'} href={wikiHref(p.slug)} style={{ textDecoration: 'none' }}>
+                  <Box sx={{
+                    fontSize: 12, py: 0.4, lineHeight: 1.45,
+                    color: path === wikiHref(p.slug) ? TEXT : 'rgba(148,163,184,0.75)',
+                    fontStyle: p.kind === 'aside' ? 'italic' : 'normal',
+                    '&:hover': { color: TEXT },
+                  }}>
+                    {p.kind === 'main' ? `${MAIN.indexOf(p) + 1}. ${p.title}` : p.title}
+                  </Box>
+                </a>
+              ))}
+            </Box>
+          )}
 
           {SOON.length > 0 && (
             <Box sx={{ mt: 3 }}>

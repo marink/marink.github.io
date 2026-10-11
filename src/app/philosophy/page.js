@@ -18,6 +18,11 @@ const TOPICS = [
     href: '/philosophy/folding',
     desc: 'A working paper. Homeostasis answers what Natural Process left open — then the same form is followed upward: limits as features of our projection, definitions as folds of unfinished structure, the fold as an address, the reset as a projection artifact, and an honest stop at the hard problem.',
   },
+  {
+    label: 'Watching the Split',
+    href: '/philosophy/watching-the-split',
+    desc: 'How to live with what Folding describes: the hard problem of consciousness as excess potential, observing rather than solving, and the honest limits of both. Wiki-style: a main line of thought, with asides to open as you like.',
+  },
   { label: 'Process Philosophy', soon: true, desc: 'Whitehead\'s metaphysics of events over substances — reality as occasions of experience rather than inert matter.' },
   { label: 'Emergence',          soon: true, desc: 'How global order arises from local rules, and why the whole is sometimes irreducible to its parts.' },
   { label: 'The Mind Problem',   soon: true, desc: 'At what level of complexity does balancing become awareness? The hard problem from a process-philosophy angle.' },
