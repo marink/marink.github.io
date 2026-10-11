@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[53200,["/_next/static/chunks/968e8bf9c90e9d2d.js","/_next/static/chunks/8f413938a5aa6bef.js","/_next/static/chunks/5feebd4278e146d9.js","/_next/static/chunks/be44657808a7d1dd.js","/_next/static/chunks/df4f5a9070f252e0.js","/_next/static/chunks/f923d5451d930c49.js"],"default"]
+3:I[17482,["/_next/static/chunks/57305f068d6dd0a9.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"izW9ztPUQv1R0m_VHs3g5","rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"real-enemy"}],[["$","script","script-0",{"src":"/_next/static/chunks/be44657808a7d1dd.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/df4f5a9070f252e0.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/f923d5451d930c49.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null
