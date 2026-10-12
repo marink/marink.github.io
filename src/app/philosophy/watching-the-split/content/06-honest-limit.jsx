@@ -97,6 +97,11 @@ export default function HonestLimit() {
         science defends its laws from testing. Keep every strand checkable: we explain a model, not the
         whole. → <A href={href('real-enemy')}>The real enemy</A>
       </P>
+      <P>
+        Which is also why this writing claims less than it may seem to. It is not a new scripture, not a new science,
+        and not the peace: only an invitation for the domains to unfold rather than fight, one that each of them is
+        free to decline. → <A href={`${href('real-enemy')}#not`}>What this writing is not</A>
+      </P>
     </>
   );
 }

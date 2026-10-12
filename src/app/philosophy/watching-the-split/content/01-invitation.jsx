@@ -1,5 +1,5 @@
 import { P, Em, A, H3, Pullout, Note } from '../../paper';
-import { Pop, Creed, DiscussIcon } from '../wiki';
+import { Pop, Creed, DiscussIcon, Invite } from '../wiki';
 import { href } from '../pages';
 
 export default function Invitation() {
@@ -12,7 +12,8 @@ export default function Invitation() {
         them. The worked example throughout is the <Pop id="hard-problem">hard problem of consciousness</Pop>.
       </P>
       <P>
-        It is written for people, not for scientists. It is not a bid for academic approval; it is an
+        It is written for people, and not specifically for scientists, believers, mathematicians, philosophers,
+        writers, artists and comedians, or readers of new age writing. It is not a bid for academic approval; it is an
         invitation to look at an old question from another angle. If it does not convince you, nothing is
         lost on either side. Knowledge is power, and whoever can read it gains that power. I offer it in
         that spirit and invest nothing in who reads it. Nor do I want to hand over finished conclusions:
@@ -40,7 +41,15 @@ export default function Invitation() {
       <P>
         And one confession, in the present tense. The pull you may feel to reach a conclusion and put this down is
         the same pull I feel to reach a conclusion and not write it. I feel it even now, writing this line.
-        An unread page is a closed fold, conscious of nothing. The hard problem only exists in the reading.
+        An unread page is a closed fold, conscious of nothing. The hard problem only exists in the reading.<Invite />
+      </P>
+
+      <H3>What this is not</H3>
+      <P>
+        A warning, stated hard so that it cannot be mistaken. This writing is not a new scripture, not a new science,
+        and not the peace itself. It is an invitation, to religion, science, mathematics, philosophy, literature and
+        art, and new age writing alike, to unfold rather than fight. An invitation can be declined. →{' '}
+        <A href={`${href('real-enemy')}#not`}>What this writing is not</A>
       </P>
 
       <H3>The one rule</H3>
@@ -60,7 +69,7 @@ export default function Invitation() {
         The hardness of the hard problem of consciousness is not a fact about consciousness but a measure
         of the excess potential we invest in the split between extremes. The problem is better observed
         than solved, because "solve" is a dimension-reducing move, and folding, which unionises the
-        extremes back into the one, is what keeps the spiral going up.
+        extremes back into the one, is what keeps the spiral going up.<Invite />
       </Pullout>
       <P>
         It is taken apart in four stages, each opened by a line of a refrain: <em>light</em> (the first split
@@ -107,7 +116,10 @@ export default function Invitation() {
         The form suits this material because the material is about folding. A link is a fold: a reader who
         holds the key clicks through and expands it; a reader who does not reads on in place. Linear reading is
         not abandoned, only made local: you read in a line until the line stops paying off, then take one hop.
-        The main line is written to be read straight through.
+        The main line is written to be read straight through. Why the examples are there, and why the unfolding
+        stops where it does: <A href={href('unfolding-with-examples')}>Unfolding with examples</A>. This writing
+        changes as it is reviewed; <A href={href('whats-changed')}>What’s changed</A> lists every revision, and pages
+        updated since your last visit are marked.
         <br /><br />
         Objections, questions, another node of the graph? Discuss them in the open: the{' '}
         <DiscussIcon inline /> icon at the foot of every page leads there, and readers are welcome to answer one

@@ -4,6 +4,8 @@ import { usePathname } from 'next/navigation';
 import { Box, Typography } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { SECTION, MAIN, ASIDES, STAGES, href as wikiHref } from './watching-the-split/pages';
+import { changedSince } from './watching-the-split/changes';
+import { useLastVisit } from './watching-the-split/useLastVisit';
 
 const BG     = '#070d1a';
 const TEXT   = '#e2e8f0';
@@ -24,6 +26,7 @@ const SOON = [
 
 export default function PhilosophyShell({ children }) {
   const path = usePathname();
+  const changed = changedSince(useLastVisit());
 
   return (
     <Box sx={{ minHeight: '100vh', bgcolor: BG, color: TEXT, fontFamily: 'Helvetica Neue, Arial, sans-serif' }}>
@@ -91,7 +94,7 @@ export default function PhilosophyShell({ children }) {
             <Box sx={{ ml: 1.5, pl: 1.5, mb: 1, borderLeft: '1px solid rgba(255,255,255,0.06)' }}>
               {[...MAIN.flatMap((p, j) => (j === 0 || MAIN[j - 1].stage !== p.stage)
                   ? [{ refrain: STAGES.find(st => st.n === p.stage).refrain }, p] : [p]),
-                null, ...ASIDES, null, { slug: 'concepts', title: 'Concepts' }].map((p, i) => p === null ? (
+                null, ...ASIDES, null, { slug: 'whats-changed', title: 'What’s changed' }, { slug: 'concepts', title: 'Concepts' }].map((p, i) => p === null ? (
                 <Box key={`gap-${i}`} sx={{ height: 10 }} />
               ) : p.refrain ? (
                 <Box key={`st-${i}`} sx={{ fontSize: 10.5, fontStyle: 'italic', color: 'rgba(167,139,250,0.7)', mt: i ? 1.25 : 0, mb: 0.25 }}>
@@ -106,6 +109,7 @@ export default function PhilosophyShell({ children }) {
                     '&:hover': { color: TEXT },
                   }}>
                     {p.kind === 'main' ? `${MAIN.indexOf(p) + 1}. ${p.title}` : p.title}
+                    {changed.has(p.slug) && <Box component="span" title="Updated since your last visit" sx={{ color: '#a78bfa', ml: 0.75 }}>●</Box>}
                   </Box>
                 </a>
               ))}

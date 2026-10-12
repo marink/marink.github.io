@@ -56,6 +56,10 @@ export const PAGES = [
 
   { slug: 'how-this-is-published', kind: 'aside', home: '', title: 'How this is published',
     lede: 'Why this writing is on my own site rather than in a journal: more scrutiny, without the verdict.' },
+  { slug: 'unfolding-with-examples', kind: 'aside', home: '', title: 'Unfolding with examples',
+    lede: 'Why clear to me is not the test, why unfolding has no free bottom, and the examples that break the loop.' },
+  { slug: 'my-big-toe', kind: 'aside', home: 'real-enemy', title: 'My Big TOE, analysed',
+    lede: 'Thomas Campbell’s theory of everything: an inspiration for bridging science and the paranormal, where it invites the test, and the one rule that seals itself.' },
   { slug: 'hard-problem-dialogue', kind: 'aside', home: 'solve-or-observe', title: 'The hard problem, worked through',
     lede: 'The full stress test, as it was argued: every move and every wall.' },
   { slug: 'creeds',                kind: 'aside', home: 'honest-limit', title: 'The creeds',
@@ -79,6 +83,8 @@ export const PAGES = [
   { slug: 'rules-about-nothing',   kind: 'aside', home: 'union-of-extremes', title: 'Rules about almost-nothing',
     lede: 'Explaining to a child that reality is mathematics, without telling her that nothing is real.' },
 
+  { slug: 'whats-changed',         kind: 'index', title: 'What’s changed',
+    lede: 'Every revision of this writing, newest first, and what changed where.' },
   { slug: 'concepts',              kind: 'index', title: 'Concepts',
     lede: 'Every aside in this section, in one place.' },
 ];

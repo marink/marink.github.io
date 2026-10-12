@@ -1,4 +1,5 @@
 import { P, Em, A, H3, Pullout, Claim, Note } from '../../paper';
+import { Invite } from '../wiki';
 import { href } from '../pages';
 
 function Verse({ cite, children }) {
@@ -46,8 +47,7 @@ export default function UnfoldYourScepticism() {
       </P>
       <Note label="See it unfold — three minutes">
         Watch <A href="https://www.youtube.com/watch?v=8Are9dDbW24"><em>Cosmic Eye</em></A>, the astrophysicist Danail
-        Obreschkow's zoom from a human face out to the cosmic web, and back in to the smallest particles. The only
-        transition it is missing is the last one: the particles, zoomed further, turning into a smear, then into a
+        Obreschkow's zoom from a human face out to the cosmic web, and back in to the smallest particles. The transition it is missing is the last one: the particles, zoomed further, turning into a smear, then into a
         mathematical equation, and then back out to the galaxy. Watch it to get a feel for the Thought, folded,
         unfolding into galaxies, planets, humans … particles, and back to the thought, reality as mathematics, and
         then back out again, in a loop.
@@ -55,7 +55,7 @@ export default function UnfoldYourScepticism() {
       <P>
         It reads as myth precisely because it is so compressed. A fold that dense cannot be unpacked by a casual
         reading, so it bounces off as a quaint story. The feeling of myth is not evidence of falsehood. It is
-        evidence of something highly folded, as a one-line theorem looks trivial before its proof is unfolded.
+        evidence of something highly folded, as a one-line theorem looks trivial before its proof is unfolded.<Invite />
       </P>
 
       <H3>Run it backwards</H3>
@@ -79,7 +79,7 @@ export default function UnfoldYourScepticism() {
       <P>
         If the Bible had tried to fully unfold the circle of life, person to dust and dust to person, it would have
         needed a library of biology, and nobody would have read it. “From dust you came, to dust you return” is not
-        a failure to explain. It is the only form that gets read at all: a fold light enough to carry down three
+        a failure to explain. It is one viable form that gets read at all: a fold light enough to carry down three
         thousand years of lossy channel and still land. The feeling of myth is the cost of the compression; the
         compression is why it survived where the library would not have.
       </P>
@@ -87,6 +87,22 @@ export default function UnfoldYourScepticism() {
         And it does a fair job of getting readers interested in learning about life. The fold earns its keep by
         delivering appetite, not the biology. Unread truth is a closed fold; a read myth is a living one.
       </Pullout>
+
+      <H3><span id="ten" style={{ scrollMarginTop: 80 }}>Why ten</span></H3>
+      <P>
+        The Ten Commandments are the same move applied to law. Why ten? Not sacred arithmetic, but a compression
+        choice: few enough to fold into memory and survive a lossy channel for millennia. Law folded to be
+        memorisable and to propagate, rather than a legal library that nobody holds. The count is a design for
+        transmission, as “from dust” is.<Invite />
+      </P>
+      <P>
+        And because they are folded, following all ten runs into grey areas, places where one seems to contradict
+        another. The contradiction is the fold hitting a fork: the dropped dimension, the cost of the compression,
+        showing up. I treat this as a specimen of folding, not a ruling on which commandment overrides which; that
+        would be doing theology, and it is not my lane. How to live in a grey area is on{' '}
+        <A href={`${href('ups-and-downs')}#grey-areas`}>Ups and downs</A>, and why examples teach better than rules
+        is in <A href={href('unfolding-with-examples')}>Unfolding with examples</A>.
+      </P>
 
       <H3>Unfold your scepticism</H3>
       <P>

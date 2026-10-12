@@ -26,6 +26,9 @@ import UpsAndDowns         from './ups-and-downs';
 import AndThenThereWasAI   from './and-then-there-was-ai';
 import EternalLife         from './eternal-life';
 import HowThisIsPublished  from './how-this-is-published';
+import UnfoldingWithExamples from './unfolding-with-examples';
+import WhatsChanged        from './whats-changed';
+import MyBigToe            from './my-big-toe';
 
 export const CONTENT = {
   '':                      Invitation,
@@ -53,5 +56,8 @@ export const CONTENT = {
   'and-then-there-was-ai': AndThenThereWasAI,
   'eternal-life':          EternalLife,
   'how-this-is-published': HowThisIsPublished,
+  'unfolding-with-examples': UnfoldingWithExamples,
+  'whats-changed':         WhatsChanged,
+  'my-big-toe':            MyBigToe,
   'concepts':              Concepts,
 };

@@ -8,7 +8,10 @@ import ForumOutlinedIcon from '@mui/icons-material/ForumOutlined';
 import { TEXT, DIM, ACCENT, VIOLET, MUTED } from '../paper';
 import { SECTION, MAIN, PAGES, STAGES, DISCUSS, href, page } from './pages';
 import { POPUPS } from './popups';
-export { CC } from './flags';
+import { changedSince, formatDate } from './changes';
+import { useLastVisit } from './useLastVisit';
+import { CC } from './flags';
+export { CC };
 
 const CARD_BG = '#0f1729';
 
@@ -86,6 +89,24 @@ export function Creed({ id }) {
   );
 }
 
+// ── Invitation label ────────────────────────────────────────────────────────
+// Set beside a statement made strongly: a reminder that it is offered as an
+// invitation, not a new scripture, a new science or the peace.
+
+export const INVITE_LABEL = 'Not a new scripture, not a new science, not the peace: an invitation to unfold rather than fight';
+
+export function Invite() {
+  return (
+    <a href={`${href('real-enemy')}#not`} title={INVITE_LABEL} aria-label={INVITE_LABEL}
+       style={{ textDecoration: 'none', marginLeft: 6, verticalAlign: '0.1em' }}>
+      <Box component="span" sx={{ fontSize: 10, letterSpacing: 1.2, textTransform: 'uppercase', color: ACCENT,
+                                  border: '1px solid rgba(96,165,250,0.45)', borderRadius: '4px', px: 0.75, py: 0.1 }}>
+        invitation
+      </Box>
+    </a>
+  );
+}
+
 // ── Speaker turn for the dialogue page ──────────────────────────────────────
 
 export function Turn({ who, children }) {
@@ -121,6 +142,8 @@ const link = { color: 'rgba(255,255,255,0.3)', textDecoration: 'none' };
 
 export function WikiFrame({ slug, children }) {
   const meta = page(slug);
+  const previous = useLastVisit();
+  const update = changedSince(previous).get(slug);
   const i = MAIN.findIndex(p => p.slug === slug);
   const prev = i > 0 ? MAIN[i - 1] : null;
   const next = i >= 0 && i < MAIN.length - 1 ? MAIN[i + 1] : null;
@@ -147,7 +170,14 @@ export function WikiFrame({ slug, children }) {
       <Typography variant="h1" sx={{ fontSize: { xs: '2rem', md: '2.5rem' }, fontWeight: 800, color: TEXT, mb: 1.5, lineHeight: 1.12 }}>
         {i === 0 ? SECTION.title : meta.title}
       </Typography>
-      <Typography sx={{ color: DIM, fontSize: 16.5, lineHeight: 1.65, mb: 4, maxWidth: 620 }}>{meta.lede}</Typography>
+      <Typography sx={{ color: DIM, fontSize: 16.5, lineHeight: 1.65, mb: update ? 2.5 : 4, maxWidth: 620 }}>{meta.lede}</Typography>
+      {update && (
+        <Box sx={{ mb: 4, p: 1.75, borderRadius: '8px', border: '1px solid rgba(167,139,250,0.3)', background: 'rgba(167,139,250,0.06)', fontSize: 13.5, color: DIM, lineHeight: 1.6 }}>
+          <Box component="span" sx={{ color: VIOLET, fontWeight: 600 }}>Updated since your last visit</Box>
+          {' · '}{formatDate(update.change.published)}{': '}{update.note}{' '}
+          <a href={`${href('whats-changed')}#${update.change.id}`} style={{ color: VIOLET, textDecoration: 'none' }}>What’s changed →</a>
+        </Box>
+      )}
       <Divider sx={{ borderColor: MUTED, mb: 4 }} />
 
       {children}

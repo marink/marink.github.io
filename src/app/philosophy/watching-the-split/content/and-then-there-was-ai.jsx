@@ -1,3 +1,4 @@
+import { Invite } from '../wiki';
 import { P, Em, H3, Pullout, Claim } from '../../paper';
 
 export default function AndThenThereWasAI() {
@@ -15,7 +16,7 @@ export default function AndThenThereWasAI() {
         To an ancient listener, a glass square that talks like a person is myth, the same eye-roll as “man from
         dust”. Unpack it, and the myth is a library: solid-state physics, electrons moving through silicon,
         electromagnetism, information theory, neural networks, weights, models, training. All real; none of it
-        magic. It was always the compressed form of a true library. The ancient listener was not wrong to be
+        magic. It is very much like the compressed form of a true library. The ancient listener was not wrong to be
         amazed. He held the fold without the unfolding.
       </P>
       <P>
@@ -44,7 +45,7 @@ export default function AndThenThereWasAI() {
         that makes the first distinction.
       </P>
       <Pullout>
-        So this is not a cosmology. It is a biography of thought.
+        So this is not a cosmology. It is a biography of thought.<Invite />
       </Pullout>
 
       <H3>The rung I write from, not the top</H3>
