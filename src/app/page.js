@@ -257,6 +257,12 @@ function BorderElectron({ children, isActive }) {
 
 const PROJECTS = [
   {
+    title: 'Agentic AI',
+    url: 'https://agenticai.marinkokona.com',
+    tags: ['AI/ML', 'Agents'],
+    desc: 'A Claude agent driving real ML algorithms over MCP — K2 structure learning, naive Bayes, k-NN, decision trees — with every tool call shown, and a paper on what happened when the agents got their own mailboxes.',
+  },
+  {
     title: 'MachineLearning.js',
     url: 'https://machinelearning.js.org',
     tags: ['JavaScript', 'AI/ML'],
@@ -308,6 +314,7 @@ const TAG_COLORS = {
   'Sets':            '#38bdf8',
   'Philosophy':      '#a78bfa',
   'Nature':          '#818cf8',
+  'Agents':          '#f472b6',
 };
 
 function ProjectCard({ title, url, tags, desc, internal, isActive = false }) {
