@@ -23,6 +23,11 @@ const TOPICS = [
     href: '/philosophy/watching-the-split',
     desc: 'How to live with what Folding describes, in four stages of a refrain: and then there was light, questions, biology and science, and AI. The hard problem of consciousness as excess potential, observing rather than solving, and the honest limits of both. A main line of thought, with asides to open as you like.',
   },
+  {
+    label: 'Comedy',
+    href: '/philosophy/comedy',
+    desc: 'Working notes on comedy as folding: a joke is compressed when it is told and unfolds in the listener, and the laugh is the moment it lands. The smile, the pun and the joke, in order of length, with Ricky Gervais as the credit.',
+  },
   { label: 'Process Philosophy', soon: true, desc: 'Whitehead\'s metaphysics of events over substances — reality as occasions of experience rather than inert matter.' },
   { label: 'Emergence',          soon: true, desc: 'How global order arises from local rules, and why the whole is sometimes irreducible to its parts.' },
   { label: 'The Mind Problem',   soon: true, desc: 'At what level of complexity does balancing become awareness? The hard problem from a process-philosophy angle.' },

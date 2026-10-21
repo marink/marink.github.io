@@ -16,6 +16,7 @@ const TOPICS = [
   { label: 'Natural Process', href: '/philosophy/natural-process' },
   { label: 'Folding',         href: '/philosophy/folding' },
   { label: SECTION.title,     href: SECTION.base },
+  { label: 'Comedy',          href: '/philosophy/comedy' },
 ];
 
 const SOON = [
