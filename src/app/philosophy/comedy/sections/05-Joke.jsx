@@ -14,7 +14,8 @@ export default function Joke() {
       <P>
         The first sign was his Q&amp;A at the Oxford Union<Cite k="gervais-oxford" />. Talking about Karl
         Pilkington, he said that one of the most amazing facts he knows is that there are as many even numbers
-        as even and odd numbers put together. Karl would not have it. It is a real result from the mathematics
+        as even and odd numbers put together (<A href="https://www.youtube.com/watch?v=xwED4v5G3HA&t=1671s">at 27:51</A>).
+        Karl would not have it. It is a real result from the mathematics
         of infinity: an infinite set can be paired off, one to one, with a part of itself<Cite k="dedekind" />.
         My reaction was simple. He knows about that too.
       </P>
@@ -22,7 +23,7 @@ export default function Joke() {
       <H3 n="5.2">After that</H3>
       <P>
         After that I started to hear the structure under the jokes. One line of his, which he repeats often
-        and says in that same talk, sums it up:
+        and says in that same talk (<A href="https://www.youtube.com/watch?v=xwED4v5G3HA&t=194s">at 3:14</A>), sums it up:
       </P>
       <Pullout>
         &ldquo;Just because you&apos;re offended doesn&apos;t mean you&apos;re right.&rdquo;
