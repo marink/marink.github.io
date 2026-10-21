@@ -6,7 +6,7 @@ export const REFS = [
   { key: 'folding-paper', text: 'M. Kokona. "Folding: Reality as a Self-Referential Address." Philosophy, this site, 2026.', url: '/philosophy/folding' },
   { key: 'watching',      text: 'M. Kokona. "Watching the Split." Philosophy, this site, 2026.', url: '/philosophy/watching-the-split' },
   { key: 'gervais-oxford', text: 'R. Gervais. "Full Q&A." Oxford Union. Video.', url: 'https://www.youtube.com/watch?v=xwED4v5G3HA' },
-  { key: 'cantor',       text: 'G. Cantor. "Über eine elementare Frage der Mannigfaltigkeitslehre." Jahresbericht der Deutschen Mathematiker-Vereinigung 1: 75–78, 1891.' },
+  { key: 'dedekind',      text: 'R. Dedekind. Was sind und was sollen die Zahlen? Vieweg, 1888.' },
   { key: 'counselor',     text: 'R. Scott (dir.), C. McCarthy (screenplay). The Counselor. 20th Century Fox, 2013.' },
   { key: 'kant',          text: 'I. Kant. Critique of Judgment. 1790. §54.' },
   { key: 'schopenhauer',  text: 'A. Schopenhauer. The World as Will and Representation. 1818. Vol. 1, §13.' },
