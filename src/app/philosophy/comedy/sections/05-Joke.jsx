@@ -12,9 +12,10 @@ export default function Joke() {
 
       <H3 n="5.1">The first sign</H3>
       <P>
-        The first sign was a talk in which Gervais described trying to show an inflexible friend that there
-        are more real numbers than rational or natural numbers: Cantor&apos;s result that not all infinities
-        are the same size<Cite k="cantor" />. My reaction was simple. He knows about that too.
+        The first sign was his Q&amp;A at the Oxford Union<Cite k="gervais-oxford" />, where he described trying
+        to show an inflexible friend that there are more real numbers than rational or natural numbers:
+        Cantor&apos;s result that not all infinities are the same size<Cite k="cantor" />. My reaction was
+        simple. He knows about that too.
       </P>
 
       <H3 n="5.2">After that</H3>
